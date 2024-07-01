@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "declaration": true,
+    "typeRoots": ["./node_modules/@types", "../../types"],
+    "types": ["vue-types"],
+    "paths": {
+      "@/*": [
+        "lib/*"
+      ],
+      "form-render": [
+        "packages/form-render/lib/*"
+      ],
+    },
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings",
+    "**/__test__"
+  ]
+}

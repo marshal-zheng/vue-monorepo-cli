@@ -1,0 +1,40 @@
+{
+  "name": "rollup-builder",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "hq <1536101747@qq.com>",
+  "license": "ISC",
+  "main": "lib/rollup-builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "rollup-builder": "./lib/rollup-builder.js"
+  },
+  "publishConfig": {
+    "registry": "http://r.npm.tiduyun.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/rollup-builder.test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@vue/babel-plugin-jsx": "^1.2.2",
+    "rollup": "^4.14.3",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json", // 相对路径指向根目录的 tsconfig.json
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "dist"
+  ]
+}
